@@ -5,13 +5,12 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.1</version>
+		<version>3.2.4</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.base.payment</groupId>
 	<artifactId>payment_gateway_system</artifactId>
 	<version>0.0.1</version>
-	<packaging>war</packaging>
 	<name>payment_gateway_system</name>
 	<description>Payment Integration System</description>
 	<url/>

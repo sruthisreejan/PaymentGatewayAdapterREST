@@ -11,12 +11,11 @@ public class PaymentService {
     @Autowired
     ServiceFactory serviceFactory;
 
-
-
     @Value("${payment.gateway}")
     private String gateway;
-    public String processPayment(){
+
+    public void processPayment(){
         IPaymentGateway gatewayService = serviceFactory.getPaymentService(gateway);
-        return gatewayService.processPayment();
+        gatewayService.processPayment();
     }
 }
