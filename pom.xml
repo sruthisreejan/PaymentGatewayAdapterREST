@@ -10,7 +10,7 @@
 	</parent>
 	<groupId>com.base.payment</groupId>
 	<artifactId>payment_gateway_system</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>war</packaging>
 	<name>payment_gateway_system</name>
 	<description>Payment Integration System</description>
